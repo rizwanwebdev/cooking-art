@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* @theme {
+  --breakpoint-*: initial;
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
+} */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+@theme {
+  --color-primary-text: #666666;
+  --color-primary-color: #f2995a;
+  --color-hover-color: #f08b42;
+}
