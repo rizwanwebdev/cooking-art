@@ -2,6 +2,8 @@
 
 A delightful React application for discovering and sharing your favorite recipes! This project provides a user-friendly interface to browse, search, and view detailed information about various recipes. It leverages React, React Router DOM for navigation, and Tailwind CSS for styling.
 
+Live Demo: [CookingArt.netlify.app](https://cookingart.netlify.app/)
+
 ## 🚀 Key Features
 
 - **Browse Recipes:** Explore a wide variety of recipes with visually appealing displays.
