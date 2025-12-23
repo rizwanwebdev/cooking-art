@@ -10,10 +10,32 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 @theme {
   --color-primary-text: #666666;
   --color-primary-color: #f2995a;
   --color-hover-color: #f08b42;
+}
+* {
+  box-sizing: border-box;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #fff inset !important; /* your dark bg */
+  -webkit-text-fill-color: #666666 !important; /* text color 
+  */
+  caret-color: #666666 !important;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
+  -webkit-text-fill-color: #666666 !important;
+  caret-color: #666666 !important;
+}
+
+input:-webkit-autofill:hover {
+  -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
+  -webkit-text-fill-color: #666666 !important;
+  caret-color: #666666 !important;
 }

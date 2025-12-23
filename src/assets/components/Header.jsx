@@ -9,7 +9,7 @@ const Header = () => {
           <div>
             <NavLink to="/">
               <img
-                className="h-[50px]"
+                className="max-h-15"
                 src={cookingArt}
                 alt="Cooking Art Logo"
               />
@@ -27,7 +27,7 @@ const Header = () => {
                   <NavLink
                     to={item.to}
                     className={({ isActive }) =>
-                      `font-semibold ${
+                      `font-semibold transition-all hover:text-hover-color ${
                         isActive ? "text-hover-color" : "text-primary-text"
                       }`
                     }

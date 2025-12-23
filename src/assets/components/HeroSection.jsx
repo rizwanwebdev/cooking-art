@@ -13,7 +13,7 @@ const Hero = () => {
   };
   return (
     <>
-      <section className="relative bg-linear-to-b from-[hsl(30,25%,92%)] to-white py-20 px-6 overflow-hidden">
+      <section className="relative bg-linear-to-b from-[#f0ebe6] to-white py-20 px-6 overflow-hidden">
         <div className="container mx-auto">
           <div className="mb-8 flex justify-center">
             <ImageWithFallBack

@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import cookingArt from "../images/logo/cookingArt.png";
+import ImageWithFallBack from "../components/ImageWithFallBack";
 import {
   ChefHat,
   Pencil,
@@ -22,25 +24,13 @@ const FooterSection = () => {
             {/* Logo & Tagline */}
             <div>
               <Link to="/">
-                <div className="flex items-center gap-2 mb-3 cursor-pointer">
-                  <div className="relative">
-                    <ChefHat
-                      className="w-8 h-8 text-primary-text"
-                      strokeWidth={1.5}
-                    />
-                    <Pencil
-                      className="w-4 h-4 text-primary-text absolute -bottom-1 -right-1"
-                      strokeWidth={2}
-                    />
-                  </div>
-                  <span className="font-handwritten tracking-wide text-primary-text text-2xl font-semibold">
-                    Cooking Art
-                  </span>
+                <div className="flex gap-2 mb-3 cursor-pointer max-w-38">
+                  <ImageWithFallBack src={cookingArt} alt={"CookingArt Logo"} />
                 </div>
               </Link>
 
               <p className="text-primary-text">
-                Where creativity meets the kitchen
+                Where creativity meets <br /> the kitchen
               </p>
             </div>
 

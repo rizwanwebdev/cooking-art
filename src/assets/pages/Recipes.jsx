@@ -3,7 +3,7 @@ import SearchBar from "../components/SearchBar";
 import Header from "../components/Header";
 import RecipeCards from "../components/RecipeCards";
 import EmptyState from "../components/EmptyState";
-import { Filter, Search } from "lucide-react";
+import { Filter } from "lucide-react";
 import { useSearchParams } from "react-router-dom";
 import FooterSection from "../components/FooterSection";
 
